@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Services\\Services.csproj": {}
+  },
+  "projects": {
+    "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Common\\Common.csproj",
+        "projectName": "Common",
+        "projectPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\Farshad\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Farshad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Pluralize.NET": {
+              "target": "Package",
+              "version": "[0.1.84, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Farshad\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Farshad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Entities\\Entities.csproj": {
+                "projectPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Entities\\Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Entities\\Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Entities\\Entities.csproj",
+        "projectName": "Entities",
+        "projectPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\Farshad\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Farshad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Common\\Common.csproj": {
+                "projectPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\Farshad\\.nuget\\packages\\",
+        "outputPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Farshad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Data\\Data.csproj": {
+                "projectPath": "E:\\Learning\\Asp.net Api\\AspNetCore-WebApi_Part3\\19- Swagger Part3\\Project\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[2.1.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
